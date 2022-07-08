@@ -19,8 +19,13 @@ client.on("message", (message) => {
   if (command === 'ladis') {
     message.channel.send("k onda perris");
   } else
+  
   if (command === 'comandos') {
-    message.channel.send("Esto es lo que tenemos hasta ahora: | .ladis | .comandos | .sorteo | Mandar mensaje a otro canal: .general .musikita .pelis .series .recetas .bandas-artistas .videosyt .jueguitos .cursos .costura | .compatibilidad fulanito pepito |");
+    message.channel.send({embed: {
+      color: 3447003,
+      description: "Esto es lo que tenemos hasta ahora: | .ladis | .comandos | .sorteo | Mandar mensaje a otro canal: .general .musikita .pelis .series .recetas .bandas-artistas .videosyt .jueguitos .cursos .costura | .compatibilidad fulanito pepito |"
+    }
+    });
   } else
 
   if (command === 'compatibilidad') {
