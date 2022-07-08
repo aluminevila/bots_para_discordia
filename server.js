@@ -17,7 +17,7 @@ client.on("message", (message) => {
 
 
   if (command === 'ladis') {
-    message.channel.send("k onda perris");
+    message.channel.send("k onda perriss");
   } else
   if (command === 'comandos') {
     message.channel.send("Esto es lo que tenemos hasta ahora: | .ladis | .comandos | .sorteo | Mandar mensaje a otro canal: .general .musikita .pelis .series .recetas .bandas-artistas .videosyt .jueguitos .cursos .costura | .compatibilidad fulanito pepito |");
